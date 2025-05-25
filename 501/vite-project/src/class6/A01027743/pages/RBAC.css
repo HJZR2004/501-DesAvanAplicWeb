@@ -1,0 +1,72 @@
+/* Contenedor principal */
+.dashboard {
+    background-color: rgb(19, 21, 28);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(45, 52, 123);
+    width: 360px;
+    color: rgb(155, 159, 209);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 40px auto;
+  }
+  
+  /* Título principal */
+  .dashboard h1 {
+    font-size: 26px;
+    color: rgb(129, 135, 205);
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  /* Selector de rol */
+  .role-switcher {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .role-switcher label {
+    font-weight: 600;
+    color: rgb(155, 159, 209);
+    font-size: 16px;
+  }
+  
+  /* Select para cambiar rol */
+  .role-switcher select {
+    background-color: rgb(34, 37, 56);
+    color: rgb(155, 159, 209);
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid rgb(75, 82, 143);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .role-switcher select:hover,
+  .role-switcher select:focus {
+    background-color: rgb(45, 52, 123);
+    border-color: rgb(129, 135, 205);
+    outline: none;
+  }
+  
+  /* Subtítulos de cada vista */
+  .dashboard h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(129, 135, 205);
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Texto descriptivo de la vista */
+  .dashboard p {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(155, 159, 209);
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
