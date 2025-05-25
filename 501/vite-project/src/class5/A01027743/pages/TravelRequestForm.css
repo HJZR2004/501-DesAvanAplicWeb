@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    background-color: rgb(19, 21, 28);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(45, 52, 123);
+    width: 320px;
+    color: rgb(155, 159, 209);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: rgb(129, 135, 205);
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #6d54b1;
+    background-color: rgb(19, 19, 19);
+    color: rgb(155, 159, 209);
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  button[type="submit"] {
+    background-color: rgb(45, 52, 123);
+    color: rgb(155, 159, 209);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(155, 159, 209);
+    color: rgb(45, 52, 123);
+  }
+  
+  .text-red-500, /* Tailwind class override */
+  .error-message {
+    color: rgb(160, 104, 104);
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+
+  .back-to {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(45, 52, 123);
+    color: rgb(155, 159, 209);
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+.back-to:hover {
+    background-color: rgb(155, 159, 209);
+    color: rgb(45, 52, 123);
+}
+  
